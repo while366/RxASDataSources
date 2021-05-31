@@ -29,6 +29,7 @@ let package = Package(
                 "RxSwift",
                 .product(name: "RxCocoa", package: "RxSwift"),
                 .product(name: "Differentiator", package: "RxDataSources"),
+                .product(name: "RxDataSources", package: "RxDataSources"),
                 .product(name: "AsyncDisplayKit", package: "Texture"),
                 "PINCache",
             ]),
