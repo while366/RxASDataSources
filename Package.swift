@@ -12,10 +12,10 @@ let package = Package(
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
             name: "RxASDataSources",
-            targets: ["DataSources"]),
+            targets: ["RxASDataSources"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/3a4oT/Texture.git", .revision("f06cc18ff0723091bcd25bf87b19f678968dad48")),
+        .package(url: "https://github.com/while366/Texture.git", .revision("f2ac20c68821f0b2c4ee14215123d767012f24d0")),
         .package(url: "https://github.com/RxSwiftCommunity/RxDataSources.git", .upToNextMajor(from: "5.0.1")),
         .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.0.0")),
         .package(url: "https://github.com/pinterest/PINCache.git", .upToNextMajor(from: "3.0.3")),
@@ -24,7 +24,7 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
-            name: "DataSources",
+            name: "RxASDataSources",
             dependencies: [
                 "RxSwift",
                 .product(name: "RxCocoa", package: "RxSwift"),
