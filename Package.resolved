@@ -2,15 +2,6 @@
   "object": {
     "pins": [
       {
-        "package": "IGListKit",
-        "repositoryURL": "https://github.com/3a4oT/IGListKit",
-        "state": {
-          "branch": "spmNumber10",
-          "revision": "20fb85f38b940b4ad71c4ed1c4a15f4a99b0df94",
-          "version": null
-        }
-      },
-      {
         "package": "libwebp",
         "repositoryURL": "https://github.com/SDWebImage/libwebp-Xcode",
         "state": {
@@ -42,7 +33,7 @@
         "repositoryURL": "https://github.com/pinterest/PINRemoteImage.git",
         "state": {
           "branch": "master",
-          "revision": "93428e8b6e797d27d1f57425937c0e094d0f4ad8",
+          "revision": "0a3bf07f1437ec128cc787efb79b8f53b023f6be",
           "version": null
         }
       },
@@ -66,10 +57,10 @@
       },
       {
         "package": "Texture",
-        "repositoryURL": "https://github.com/3a4oT/Texture.git",
+        "repositoryURL": "https://github.com/while366/Texture.git",
         "state": {
-          "branch": null,
-          "revision": "f06cc18ff0723091bcd25bf87b19f678968dad48",
+          "branch": "spm",
+          "revision": "7782f0c1f9167ee7597b99f8146b6252050452da",
           "version": null
         }
       }

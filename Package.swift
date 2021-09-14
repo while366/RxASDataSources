@@ -15,7 +15,7 @@ let package = Package(
             targets: ["RxASDataSources"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/while366/Texture.git", .revision("f2ac20c68821f0b2c4ee14215123d767012f24d0")),
+        .package(url: "https://github.com/while366/Texture.git", .branch("spm")),
         .package(url: "https://github.com/RxSwiftCommunity/RxDataSources.git", .upToNextMajor(from: "5.0.1")),
         .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.0.0")),
         .package(url: "https://github.com/pinterest/PINCache.git", .upToNextMajor(from: "3.0.3")),
