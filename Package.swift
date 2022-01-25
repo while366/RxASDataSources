@@ -32,7 +32,8 @@ let package = Package(
                 .product(name: "RxDataSources", package: "RxDataSources"),
                 .product(name: "AsyncDisplayKit", package: "Texture"),
                 "PINCache",
-            ]),
+            ],
+            exclude: ["Carthage"]),
 
     ]
 )
